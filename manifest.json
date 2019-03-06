@@ -8,10 +8,15 @@
   "permissions": ["activeTab", "declarativeContent", "storage"],
 
   "background": {
-    "scripts": [""],
-    "persistent": true },
-
-  "page_action": "",
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "default_icon" : {
+    "32" : "images/mainC.png"
+  },
+  "icons" : {
+    "32" : "images/mainC.png"
+  },
 
   "manifest_version": 2
 
