@@ -1,21 +1,21 @@
 {
-  "name": "Conor Chamness",
+  "name": "SNAG",
 
   "version": "1.0",
 
-  "description": "This extension will read the email address from an open gmail email and open the domain name in a new tab.",
+  "description": "This extension will read the email address from an open Gmail, email and open the domain name in a new tab.",
 
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": ["activeTab", "declarativeContent", "storage","clipboardRead","clipboardWrite"],
 
   "background": {
     "scripts": ["background.js"],
-    "persistent": false
-  },
-  "default_icon" : {
-    "32" : "images/mainC.png"
+    "persistent": true
   },
   "icons" : {
-    "32" : "images/mainC.png"
+    "16": "images/mainC.png",
+    "32": "images/mainC.png",
+    "48": "images/mainC.png",
+    "128": "images/mainC.png"
   },
 
   "manifest_version": 2
