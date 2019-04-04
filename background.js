@@ -1,7 +1,6 @@
-
-
 console.log("extension working...");
-// Immediately invoked function
+
+
 const domainSearch = () => {
     //scan the DOM for an '@' OR an '@' && '.'
     console.log("searching for a domain name...");
@@ -10,13 +9,13 @@ const domainSearch = () => {
 
     console.log(senderUrl);
 
-    // if(senderUrl.contains("@" || "@" && ".")){
-    //     console.log("grabbed the correct url containing an AT or and AT and a PERIOD");
-    // }
-    //change this out with the found url
-    // let docUrl = "https://" + senderUrl;
+    if(senderUrl.contains("@" || "@" && ".")){
+        console.log("grabbed the correct url containing an AT or and AT and a PERIOD");
+    }
+    // change this out with the found url
+    let docUrl = "https://" + senderUrl;
 
-    let docUrl = "https://www.google.com";
+    // let docUrl = "https://www.google.com";
 
 
     //launch the new tab with the found url inside
